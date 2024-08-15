@@ -1,6 +1,6 @@
 document.getElementById("submitBtn").addEventListener("click", function() {
     const nameInput = document.getElementById("nameInput").value;
-    const randomWords = ["gondoruwo", "tutup odol", "buaya brazil", "Setia", "samsudin", "miya hyper" "Topi Melorot", "Pocong Bersepeda", "Batu Bata", "suster mesok", "masako", "panji petualang", "kopi tuak", "miya Khalifah", "niroro gundul", "mak lampir", "megawati", 
+    const randomWords = ["gondoruwo", "tutup odol", "buaya brazil", "Setia", "samsuding", "miya hyper" "Topi Melorot", "Pocong Bersepeda", "Batu Bata", "suster mesok", "masako", "panji petualang", "kopi tuak", "miya Khalifah", "niroro gundul", "mak lampir", "megawati", 
 "ibu puan + tek"];
     const randomIndex = Math.floor(Math.random() * randomWords.length);
 
